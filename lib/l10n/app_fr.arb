@@ -1,0 +1,162 @@
+{
+  "helloWorld": "Bonjour le monde!",
+  "@helloWorld": {},
+  "aboutDescriptionTitle": "ExHale - Stats pour arrêter de fumer",
+  "@aboutDescriptionTitle": {},
+  "aboutScreenTitle": "Quant à ExHale",
+  "@aboutScreenTitle": {},
+  "aboutLinksViewSourceCode": "Voir le code source",
+  "@aboutLinksViewSourceCode": {},
+  "aboutPrivacyTitle": "Vie privée et code source ouvert",
+  "@aboutPrivacyTitle": {},
+  "aboutPrivacyText": "ExHale respecte votre vie privée. L'application ne collecte pas vos données et toutes vos informations sont stockées localement sur votre appareil. Le code source est disponible pour être examiné, ce qui garantit une transparence totale.",
+  "@aboutPrivacyText": {},
+  "aboutLinksTitle": "Liens",
+  "@aboutLinksTitle": {},
+  "aboutLinksReportAnIssue": "Signaler un problème",
+  "@aboutLinksReportAnIssue": {},
+  "aboutCreditsTitle": "Crédits",
+  "@aboutCreditsTitle": {},
+  "aboutCreditsOpenMoji": "Visiter OpenMoji",
+  "@aboutCreditsOpenMoji": {},
+  "aboutCreditsMyWebsite": "Visiter mon site web",
+  "@aboutCreditsMyWebsite": {},
+  "aboutDescriptionText": "ExHale est une application libre conçue pour vous aider à suivre le temps écoulé depuis que vous avez fumé pour la dernière fois et à voir les progrès que vous avez réalisés. Elle calcule le nombre de cigarettes évitées et l'argent que vous avez économisé en fonction de vos habitudes tabagiques.",
+  "@aboutDescriptionText": {},
+  "aboutCreditsText": "L'icône de l'application est fournie par OpenMoji - un projet open-source d'emoji. Merci à OpenMoji pour leur travail remarquable !",
+  "@aboutCreditsText": {},
+  "configSnackBarValidNumber": "Veuillez entrer des chiffres valides avant de sauvegarder.",
+  "@configSnackBarValidNumber": {},
+  "friendsDialogUIDCopiedToClipboard": "Copié dans le presse-papiers !",
+  "@friendsDialogUIDCopiedToClipboard": {},
+  "configDialogEnableFriendsDataText": "L'activation des Amis nécessite une connexion internet, partager l'UID aléatoire et les statistiques de votre appareil avec le serveur : exhale.retiolus.net.",
+  "@configDialogEnableFriendsDataText": {},
+  "friendsMoneySavedText": "Argent économisé : ${moneySaved}",
+  "@friendsMoneySavedText": {
+    "placeholders": {
+      "moneySaved": {
+        "type": "String",
+        "example": "0.0"
+      }
+    }
+  },
+  "friendsDialogAddFriendTitle": "Ajouter un(e) ami(e)",
+  "@friendsDialogAddFriendTitle": {},
+  "friendsLastSmokedText": "Dernière cigarette : {lastSmoked}",
+  "@friendsLastSmokedText": {
+    "placeholders": {
+      "lastSmoked": {
+        "type": "String",
+        "example": "N/A"
+      }
+    }
+  },
+  "configOptionPriceHistoryText": "Historique des prix",
+  "@configOptionPriceHistoryText": {},
+  "friendsDialogAddFriendNameText": "Nom",
+  "@friendsDialogAddFriendNameText": {},
+  "cancel": "Annuler",
+  "@cancel": {},
+  "close": "Fermer",
+  "@close": {},
+  "confirm": "Confirmer",
+  "@confirm": {},
+  "name": "Nom",
+  "@name": {},
+  "n_a": "N/A",
+  "@n_a": {},
+  "save": "Enregister",
+  "@save": {},
+  "configDialogEnableFriendsTitle": "Activer les amis",
+  "@configDialogEnableFriendsTitle": {},
+  "configDialogEnableFriendsSourceCodeText": "Le code source de l'API est disponible à l'adresse suivante :",
+  "@configDialogEnableFriendsSourceCodeText": {},
+  "configScreenTitle": "Configuration",
+  "@configScreenTitle": {},
+  "configOptionEnableFriendsText": "Activer les amis",
+  "@configOptionEnableFriendsText": {},
+  "configOptionPacketsPerWeekText": "Paquets par semaine",
+  "@configOptionPacketsPerWeekText": {},
+  "configOptionCigarettesPerPacketText": "Cigarettes par paquet",
+  "@configOptionCigarettesPerPacketText": {},
+  "configOptionCounterStartDateText": "Date de début du compteur",
+  "@configOptionCounterStartDateText": {},
+  "configOptionCounterStartDateSelectText": "Sélectionnez une date",
+  "@configOptionCounterStartDateSelectText": {},
+  "configOptionPriceHistoryPriceText": "Prix de vente",
+  "@configOptionPriceHistoryPriceText": {},
+  "configButtonAddPriceText": "Ajouter un prix",
+  "@configButtonAddPriceText": {},
+  "friendsDialogUIDYourQRText": "Votre code QR",
+  "@friendsDialogUIDYourQRText": {},
+  "friendsDialogUIDNotAvailable": "Pas d'UID d'utilisateur disponible",
+  "@friendsDialogUIDNotAvailable": {},
+  "friendsDialogUIDNoUserUID": "Pas d'UID d'utilisateur",
+  "@friendsDialogUIDNoUserUID": {},
+  "friendsDialogAddFriendUIDText": "UID",
+  "@friendsDialogAddFriendUIDText": {},
+  "friendsSnackBarSyncFailed": "Échec de la synchronisation des données.",
+  "@friendsSnackBarSyncFailed": {},
+  "friendsScreenTitle": "Amis",
+  "@friendsScreenTitle": {},
+  "friendsNoFriendsText": "Pas encore d'amis, ajoutez-en pour voir leurs progrès !",
+  "@friendsNoFriendsText": {},
+  "friendsCigarettesAvoidedText": "Cigarettes évitées : {cigAvoided}",
+  "@friendsCigarettesAvoidedText": {
+    "placeholders": {
+      "cigAvoided": {
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "friendsLastAnnouncedText": "Dernière annonce : {lastAnnounced}",
+  "@friendsLastAnnouncedText": {
+    "placeholders": {
+      "lastAnnounced": {
+        "type": "String",
+        "example": "N/A"
+      }
+    }
+  },
+  "friendsButtonShowUID": "Afficher mon UID",
+  "@friendsButtonShowUID": {},
+  "friendsButtonAddFriend": "Ajouter un(e) ami(e)",
+  "@friendsButtonAddFriend": {},
+  "homeMenuConfig": "Configuration",
+  "@homeMenuConfig": {},
+  "homeMenuAbout": "À propos",
+  "@homeMenuAbout": {},
+  "homeCigarettesAvoidedText": "Cigarettes évitées :{cigarettesAvoided}",
+  "@homeCigarettesAvoidedText": {
+    "placeholders": {
+      "cigarettesAvoided": {
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "homeMoneySavedText": "Argent économisé : ${moneySaved}",
+  "@homeMoneySavedText": {
+    "placeholders": {
+      "moneySaved": {
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "homeStartCounterText": "Démarrer le compteur",
+  "@homeStartCounterText": {},
+  "homeRestartProgressText": "Redémarrer la progression",
+  "@homeRestartProgressText": {},
+  "friendsDialogUIDCopyUID": "Copier l'UID",
+  "@friendsDialogUIDCopyUID": {},
+  "friendsSnackBarSyncSuccessfull": "Les données ont été synchronisées avec succès !",
+  "@friendsSnackBarSyncSuccessfull": {},
+  "friendsButtonShowUIDEnterUIDText": "Saisir manuellement l'UID",
+  "@friendsButtonShowUIDEnterUIDText": {},
+  "friendsDialogEditFriendsNameTitle": "Modifier le nom de l'ami",
+  "@friendsDialogEditFriendsNameTitle": {},
+  "homeSnackBarFriendsDisabled": "L'écran des amis est désactivé dans les paramètres.",
+  "@homeSnackBarFriendsDisabled": {}
+}

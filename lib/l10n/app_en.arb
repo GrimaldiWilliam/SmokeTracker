@@ -1,0 +1,203 @@
+{
+  "cancel": "Cancel",
+  "@cancel": {},
+  "close": "Close",
+  "@close": {},
+  "confirm": "Confirm",
+  "@confirm": {},
+  "name": "Name",
+  "@name": {},
+  "n_a": "N/A",
+  "@n_a": {},
+  "save": "Save",
+  "@save": {},
+
+  "aboutScreenTitle": "About ExHale",
+  "@aboutScreenTitle": {},
+  "aboutDescriptionTitle": "ExHale - Quit Smoking Tracker",
+  "@aboutDescriptionTitle": {},
+  "aboutDescriptionText": "ExHale is an open-source app designed to help you track the time since you last smoked and see the progress you've made. It calculates the number of cigarettes avoided and the money you've saved based on your smoking habits.",
+  "@aboutDescriptionText": {},
+  "aboutPrivacyTitle": "Privacy and Open Source",
+  "@aboutPrivacyTitle": {},
+  "aboutPrivacyText": "ExHale respects your privacy. It does not track your data, and all your information is stored locally on your device. The source code is available for review, ensuring complete transparency.",
+  "@aboutPrivacyText": {},
+  "aboutLinksTitle": "Links",
+  "@aboutLinksTitle": {},
+  "aboutLinksViewSourceCode": "View Source Code",
+  "@aboutLinksViewSourceCode": {},
+  "aboutLinksReportAnIssue": "Report an Issue",
+  "@aboutLinksReportAnIssue": {},
+  "aboutCreditsTitle": "Credits",
+  "@aboutCreditsTitle": {},
+  "aboutCreditsText": "The app icon is provided by OpenMoji - an open-source emoji project. Thanks to OpenMoji for their amazing work!",
+  "@aboutCreditsText": {},
+  "aboutCreditsOpenMoji": "Visit OpenMoji",
+  "@aboutCreditsOpenMoji": {},
+  "aboutCreditsMyWebsite": "Visit My Website",
+  "@aboutCreditsMyWebsite": {},
+  "aboutCreditsLiberapay": "Support me on Liberapay",
+  "@aboutCreditsLiberapay": {},
+
+  "configSnackBarValidNumber": "Please enter valid numbers before saving.",
+  "@configSnackBarValidNumber": {},
+  "configDialogEnableFriendsTitle": "Enable Friends",
+  "@configDialogEnableFriendsTitle": {},
+  "configDialogEnableFriendsDataText": "Enabling the Friends requires an internet connection and will share your device's random UID and stats with the server: exhale.retiolus.net.",
+  "@configDialogEnableFriendsDataText": {},
+  "configDialogEnableFriendsSourceCodeText": "The source code of the API is available at:",
+  "@configDialogEnableFriendsSourceCodeText": {},
+  "configScreenTitle": "Configuration",
+  "@configScreenTitle": {},
+  "configOptionEnableFriendsText": "Enable Friends",
+  "@configOptionEnableFriendsText": {},
+  "configOptionPacketsPerWeekText": "Packets per week",
+  "@configOptionPacketsPerWeekText": {},
+  "configOptionCigarettesPerPacketText": "Cigarettes per packet",
+  "@configOptionCigarettesPerPacketText": {},
+  "configOptionCounterStartDateText": "Counter Start Date",
+  "@configOptionCounterStartDateText": {},
+  "configOptionCounterStartDateSelectText": "Select a date",
+  "@configOptionCounterStartDateSelectText": {},
+  "configOptionPriceHistoryText": "Price History",
+  "@configOptionPriceHistoryText": {},
+  "configOptionPriceHistoryPriceText": "Price",
+  "@configOptionPriceHistoryPriceText": {},
+  "configButtonAddPriceText": "Add Price",
+  "@configButtonAddPriceText": {},
+  "configOptionThemeTitle": "Theme",
+  "configOptionThemeLight": "Light",
+  "configOptionThemeDark": "Dark",
+  "configOptionThemeSystem": "System",
+
+  "friendsDialogUIDYourQRText": "Your QR Code",
+  "@friendsDialogUIDYourQRText": {},
+  "friendsDialogUIDNotAvailable": "No User UID available",
+  "@friendsDialogUIDNotAvailable": {},
+  "friendsDialogUIDNoUserUID": "No User UID",
+  "@friendsDialogUIDNoUserUID": {},
+  "friendsDialogUIDCopiedToClipboard": "Copied to clipboard!",
+  "@friendsDialogUIDCopiedToClipboard": {},
+  "friendsDialogUIDCopyUID": "Copy UID",
+  "@friendsDialogUIDCopyUID": {},
+  "friendsDialogAddFriendTitle": "Add Friend",
+  "@friendsDialogAddFriendTitle": {},
+  "friendsDialogAddFriendNameText": "Name",
+  "@friendsDialogAddFriendNameText": {},
+  "friendsDialogAddFriendUIDText": "UID",
+  "@friendsDialogAddFriendUIDText": {},
+  "friendsSnackBarSyncSuccessfull": "Data synced successfully!",
+  "@friendsSnackBarSyncSuccessfull": {},
+  "friendsSnackBarSyncFailed": "Failed to sync data.",
+  "@friendsSnackBarSyncFailed": {},
+  "friendsScreenTitle": "Friends",
+  "@friendsScreenTitle": {},
+  "friendsNoFriendsText": "No friends yet, Add some to see their progress!",
+  "@friendsNoFriendsText": {},
+  "friendsLastSmokedText": "Last Smoked: {lastSmoked}",
+  "@friendsLastSmokedText": {
+    "placeholders": {
+      "lastSmoked":{
+        "type": "String",
+        "example": "N/A"
+      }
+    }
+  },
+  "friendsCigarettesAvoidedText": "Cigarettes avoided: {cigAvoided}",
+  "@friendsCigarettesAvoidedText": {
+    "placeholders": {
+      "cigAvoided":{
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "friendsMoneySavedText": "Money Saved: ${moneySaved}",
+  "@friendsMoneySavedText": {
+    "placeholders": {
+      "moneySaved":{
+        "type": "String",
+        "example": "0.0"
+      }
+    }
+  },
+  "friendsLastAnnouncedText": "Last Announced: {lastAnnounced}",
+  "@friendsLastAnnouncedText": {
+    "placeholders": {
+      "lastAnnounced":{
+        "type": "String",
+        "example": "N/A"
+      }
+    }
+  },
+  "friendsButtonShowUID": "Show my UID",
+  "@friendsButtonShowUID": {},
+  "friendsButtonShowUIDEnterUIDText": "Enter UID Manually",
+  "@friendsButtonShowUIDEnterUIDText": {},
+  "friendsButtonAddFriend": "Add Friend",
+  "@friendsButtonAddFriend": {},
+  "friendsDialogEditFriendsNameTitle": "Edit Friend's Name",
+  "@friendsDialogEditFriendsNameTitle": {},
+
+  "health2DaysTitle": "2 days after the last cigarette",
+  "health2DaysText": "Carbon monoxide is removed from the blood, improving oxygen circulation.",
+
+  "health3DaysTitle": "3 days after quitting smoking",
+  "health3DaysText": "Breathing improves and shortness of breath becomes less frequent.",
+
+  "health7DaysTitle": "7 days after quitting smoking",
+  "health7DaysText": "Taste and smell gradually return.",
+
+  "health2WeeksTitle": "2 weeks after quitting smoking",
+  "health2WeeksText": "Sleep improves.",
+
+  "health1MonthTitle": "1 month after quitting smoking",
+  "health1MonthText": "Voice becomes clearer.",
+
+  "health2MonthsTitle": "2.5 months without smoking",
+  "health2MonthsText": "Facial complexion brightens. Skin tone improves.",
+
+  "health3MonthsTitle": "3 months after quitting smoking",
+  "health3MonthsText": "Coughing becomes less frequent and less severe.",
+
+  "health1YearTitle": "1 year after the last cigarette",
+  "health1YearText": "Heart attack risk is reduced by half, and stroke risk matches that of a non-smoker.",
+
+  "health5YearsTitle": "5 years after the last cigarette",
+  "health5YearsText": "Lung cancer risk is reduced by nearly half.",
+
+  "health15YearsTitle": "10-15 years after the last cigarette",
+  "health15YearsText": "Life expectancy equals that of someone who has never smoked.",
+
+  "homeMenuConfig": "Configuration",
+  "@homeMenuConfig": {},
+  "homeMenuAbout": "About",
+  "@homeMenuAbout": {},
+  "homeSnackBarFriendsDisabled": "Friends screen is disabled in settings.",
+  "@homeSnackBarFriendsDisabled": {},
+  "homeCigarettesAvoidedText": "Cigarettes avoided: {cigarettesAvoided}",
+  "@homeCigarettesAvoidedText": {
+    "placeholders": {
+      "cigarettesAvoided":{
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "homeMoneySavedText": "Money saved: ${moneySaved}",
+  "@homeMoneySavedText": {
+    "placeholders": {
+      "moneySaved":{
+        "type": "String",
+        "example": "0"
+      }
+    }
+  },
+  "homeStartCounterText": "Start Counter",
+  "@homeStartCounterText": {},
+  "homeRestartProgressText": "Restart Progress",
+  "@homeRestartProgressText": {},
+
+  "navigationFriendsDisabled": "Friends feature is disabled. Enable it in settings."
+
+}
