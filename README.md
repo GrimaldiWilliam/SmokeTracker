@@ -1,11 +1,10 @@
-# ExHale - Quit Smoking App
+# Smoke Tracker - Quit Smoking App
 
-ExHale is a mobile app designed to help users quit smoking by tracking their progress and connecting with friends for support. The app is built with Flutter and works offline, while providing optional sync capabilities through a lightweight server API.
+Smoke Tracker is a mobile app designed to help users quit smoking by tracking their progress daily. The app is built with Flutter and works offline, while providing optional sync capabilities saving data in a local Json file with backup feauture
 
 ## Features
 
-- Quit Smoking Tracker: Tracks the time since the user last smoked, cigarettes avoided, and money saved.
-- Friends Network: Add friends to track their progress and provide mutual support.
-- QR Code Sharing: Share your unique user ID via QR codes to connect with friends easily. (Coming soon)
-- Data Sync: Sync your progress with the server and fetch the latest stats of your friends.
-- Privacy-Focused: Works fully offline and only syncs data when explicitly enabled.
+- Quit Smoking Tracker: Tracks the time since the user last smoked, cigarettes avoided, and money saved
+- Data Export: Save your progress with a simple json file
+- Privacy-Focused: Works fully offline, does not require any internet connection
+- Smoking Calendar: see your progress as calendar of daily smoked cigarette
