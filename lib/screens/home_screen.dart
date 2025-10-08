@@ -104,10 +104,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
         final file = File(filePath);
 
-        String lastLine = "";
+        String lastLine = "pippo";
         int lastIndex = 0;
+        if (!await file.exists()) {
+          await file.create();
+          await file.writeAsString('$jsonString \n', mode: FileMode.write, flush: true);
+        }
+        else if (await file.length() == 0)  {
+          await file.writeAsString('$jsonString \n', mode: FileMode.append, flush: true);
+          print(file.path);
+        }
         // Controlla se il file esiste e non è vuoto prima di leggerlo
-        if (await file.exists() && await file.length() > 0) {
+        else if (await file.exists() && await file.length() > 0) {
+          print('Sono nell ultimo else if $file.path');
           List<String> lines = await file.readAsLines();
           // Trova l'ultima riga non vuota partendo dalla fine
           for (int i = lines.length - 1; i >= 0; i--) {
@@ -118,12 +127,12 @@ class _HomeScreenState extends State<HomeScreen> {
               lastIndex = i;
               break;
             }
-          }
+         }
 
-          int lastSmokedTimeFromJson = jsonDecode(lastLine)['Smoked'];
+          int lastSmokedDateFromJson = DateTime.parse(jsonDecode(lastLine)['Smoked']).day;
           //Vedi l'ultima riga del JSON
           //Se la data all'ultima riga è diversa da currentcigarettesPerDay
-          if (lastSmokedTimeFromJson != lastSmokedTime.day) {
+          if (lastSmokedDateFromJson != lastSmokedTime.day) {
             await file.writeAsString(
                 '$jsonString \n', mode: FileMode.append, flush: true);
           } else {
@@ -203,17 +212,15 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _updateCalculations() async {
-    if (lastSmoked != null) {
-      double saved = await Calculations.calculateMoneySaved(lastSmoked!);
-      int avoided = await Calculations.calculateCigarettesAvoided(lastSmoked!,packetsPerWeek,cigarettesPerPacket,);
+    double saved = await Calculations.calculateMoneySaved(lastSmoked!);
+    int avoided = await Calculations.calculateCigarettesAvoided(lastSmoked!,packetsPerWeek,cigarettesPerPacket,);
 
 
-      setState(() {
-        moneySaved = saved;
-        cigarettesAvoided = avoided;
-      });
+    setState(() {
+      moneySaved = saved;
+      cigarettesAvoided = avoided;
+    });
     }
-  }
 
   void _startCounter() {
     _addcigarettes();

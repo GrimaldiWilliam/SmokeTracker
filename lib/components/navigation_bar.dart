@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:exhale/screens/home_screen.dart';
-import 'package:exhale/screens/history_screen.dart';
-import 'package:exhale/screens/health_screen.dart';
+import 'package:SmokeTracker/screens/home_screen.dart';
+import 'package:SmokeTracker/screens/history_screen.dart';
+import 'package:SmokeTracker/screens/health_screen.dart';
 import '/l10n/app_localizations.dart';
 
 class CustomNavigationBar extends StatelessWidget {

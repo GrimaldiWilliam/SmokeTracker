@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "net.retiolus.exhale"
+    namespace = "it.buonomba.smoketracker"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -28,7 +28,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "net.retiolus.exhale"
+        applicationId = "it.buonomba.smoketracker"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

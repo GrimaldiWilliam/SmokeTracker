@@ -1,8 +1,8 @@
-import 'package:exhale/components/navigation_bar.dart';
+import 'package:SmokeTracker/components/navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:exhale/services/api_interface.dart';
+import 'package:SmokeTracker/services/api_interface.dart';
 import 'package:flutter/services.dart'; // For clipboard
 import 'dart:convert';
 import '/l10n/app_localizations.dart';

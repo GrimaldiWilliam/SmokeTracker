@@ -1,4 +1,4 @@
-package net.retiolus.exhale
+package it.buonomba.smoketracker
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
